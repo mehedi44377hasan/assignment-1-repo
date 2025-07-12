@@ -20,7 +20,7 @@
     font-weight: bold;
     color: #4E47FF;
 }
-.signup-btn, .ctn-button, .action-btn{
+.signup-btn, .ctn-button, .action-btn, .focus-btn, .form-btn{
     background-color: #4E47FF;
     color: #ffffff;
     font-size: 16px;
@@ -33,7 +33,9 @@
 }
 .signup-btn:hover,
 .ctn-button:hover,
-.action-btn:hover {
+.action-btn:hover ,
+.focus-btn:hover ,
+.form-btn:hover{
     background-color: gold;
     color: #000000;
 }
@@ -157,6 +159,93 @@
 .rvwr-date{
     color: #25243284;
 }
+
+/*focus styles*/
+
+.focus-container{
+    text-align: center;
+    background-color: #f2eded76;
+    border-radius: 14px;
+    margin: 0px 150px 90px;
+    padding: 70px 150px;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.focus-sub-title{
+    font-size: 16px;
+    color: #25243284;
+    padding-bottom: 20px;
+}
+.focus-img{
+    max-width: 840px;
+    border-radius: 48px;
+    padding-top: 20px;
+}
+
+/**/
+
+.form-container{
+    display: flex;
+    margin: 90px 150px 90px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-title{
+    font-size: 95px;
+    font-weight: bold;
+    color: #000000  ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input-style{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2eded76;
+    border: 1px solid #0000001b;
+    margin-bottom: 20px;
+}
+.label-style{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/*footer styles*/
+
+.footer-container{
+    text-align: center;
+    padding: 110px 0px;    background-color: #f2eded76;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+    padding-bottom: 10px;
+}
+.footer-sub-title{
+    font-size: 16px;
+    color: #25243284;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #25243284;
+    margin-right: 30px;
+}
+
+
+
+
+
 
 
 
